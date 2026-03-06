@@ -189,6 +189,7 @@ footer {
 
 }
 
+/* ***************** Add media query for the 980px screen ***************** */
 @media screen and (min-width: 980px) {
     main {
         display: flex;
@@ -228,6 +229,7 @@ footer {
     }
 }
 
+/* ***************** Add media query for the 1920px screen ***************** */
 @media screen and (min-width: 1920px) {
 
     main,
@@ -270,6 +272,11 @@ footer {
 
     form .btn {
         width: auto;
+    }
+
+    footer .container {
+        display: flex;
+        gap: 2rem;
     }
 
 }
