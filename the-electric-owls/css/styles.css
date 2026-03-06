@@ -157,7 +157,7 @@ footer {
 }
 
 /* ***************** Add media query for the 588px screen ***************** */
-@media (min-width: 588px) {
+@media screen and (min-width: 588px) {
     header .container {
         display: flex;
         justify-content: space-between;
@@ -186,6 +186,27 @@ footer {
         width: auto;
     }
 
+}
+
+@media screen and (min-width: 980px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    main section.one,
+    main section.two {
+        width: calc((100% / 2) - (2rem / 2));
+    }
+
+    .btn-center {
+        justify-content:flex-start;
+    }
+
+    aside {
+        width: 100%;
+    }
 }
 
 /* ***************** footer ***************** */
