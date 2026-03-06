@@ -208,6 +208,7 @@ footer {
 
     aside {
         width: 100%;
+        padding-right: 24.75rem;
     }
 
     form {
@@ -238,6 +239,10 @@ footer {
         max-width: 1720px;
         margin: 0 auto;
         padding: 0;
+    }
+
+    footer .container {
+        max-width: 1234px;
     }
 
     main {
@@ -276,7 +281,7 @@ footer {
 
     footer .container {
         display: flex;
-        gap: 2rem;
+        gap: 32px;
     }
 
 }
